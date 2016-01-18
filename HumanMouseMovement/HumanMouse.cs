@@ -8,7 +8,7 @@ namespace HumanMouseMovement {
         /// <summary>
         /// </summary>
         public Action<double, double> MoveMouseAction =
-            (x, y) => { Cursor.Position = new Point(Convert.ToInt32(x), Convert.ToInt32(x)); };
+            (x, y) => { Cursor.Position = new Point(Convert.ToInt32(x), Convert.ToInt32(y)); };
 
         /// <summary>
         /// </summary>
